@@ -119,7 +119,7 @@ public class WebViewClientHostApiImpl implements GeneratedAndroidWebView.WebView
 
         @Override
         public boolean onRenderProcessGone(WebView view, RenderProcessGoneDetail detail) {
-            return true;
+            return false;
             //return super.onRenderProcessGone(view, detail);
         }
 
